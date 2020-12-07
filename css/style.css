@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+header{
+
+
+}
+.container{
+	width: 85%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header .logo{}
+header .logo img{
+    width: 50%;
+}
+header nav{}
+header nav ul{}
+header nav ul li{
+	list-style: none;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #055999 !important;
+	padding: 12px 18px;
+}
+.active{
+	background: #055999 !important;
+	color: white !important;
+}
+header nav ul li a:hover{
+	background: #055999 !important;
+	color: white !important;
+}
+
+
+
+
+.banner{
+	background: url(../images/slides/2.jpg);
+	width: 100%;
+	height: 70vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.banner .hero-text{
+	color: white;
+	position: absolute;
+	top: 55%;
+	left: 12%;
+}
+.banner .hero-text h1{
+    font-size: 42px;
+    padding: 10px 0;
+}
+.banner .hero-text h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+.service{
+    padding: 40px 0;
+}
+.service .service-head{
+    text-align: center;
+    width: 100%;
+}
+.service .service-head h1{
+    font-size: 35px;
+    color: #313131;
+}
+.service .service-head p{
+    color: #656565;
+    padding: 20px 0;
+}
+
+
+.service .service-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.service .service-item .box{
+	width: 22%;
+	text-align: center;
+	background: #efefef;
+	border:1px solid transparent;
+	height: 380px;
+}
+.service .service-item .box:hover{
+	border:1px solid #055999;
+}
+.service .service-item .box .pic{
+    padding: 20px 0;
+}
+.service .service-item .box .pic i{
+    font-size: 90px;
+    color: #656565;
+}
+.service .service-item .box h3{
+	color: #313131;
+}
+.service .service-item .box p{
+	color: #656565;
+	padding: 20px 5px 35px 5px;
+	font-size: 15px;
+}
+.service .service-item .box a{
+	background: #055999 !important;
+	color: white !important;
+	text-decoration: none;
+	padding: 13px 22px;
+	border:1px solid #055999;
+}
+.service .service-item .box a:hover{
+	background: transparent !important;
+	color: #055999 !important;
+}
+
+
+
+.team{
+	width: 100%;
+	padding: 40px 0;
+	background: #055999;
+}
+.team .team-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.team .team-body .team-left{
+    width: 50%;
+}
+.team .team-body .team-left img{
+    width: 95%;
+}
+.team .team-body .team-right{
+	color: white;
+	width: 50%;
+}
+.team .team-body .team-right h3{
+    font-size: 30px;
+}
+.team .team-body .team-right p{
+
+padding: 15px 0;
+}
+
+
+
+footer{
+	width: 100%;
+	padding: 40px 0;
+	background: #1B1B1B;
+}
+footer .main-footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer .main-footer .box{
+	width: 23%;
+}
+footer .main-footer .box h5{
+	color: white !important;
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+footer .main-footer .box p{
+	color: #949494 !important;
+	padding-bottom: 20px;
+}
+footer .main-footer .box i{
+	color: #949494 !important;
+}
+footer .main-footer .box ul{}
+footer .main-footer .box ul li{
+	list-style: none;
+	margin: 10px 0;
+}
+footer .main-footer .box ul li a{
+	text-decoration: none;
+	color: #949494 !important;
+}
+footer .main-footer .box ul li a:hover{}
+
+.copyright{
+	background: #191919;
+	padding: 25px 0;
+}
+.copyright .copyright-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 85%;
+}
+
+.copyright .copyright-body .left{}
+.copyright .copyright-body .left p{
+	color: white;
+	font-size: 12px;
+}
+
+.copyright .copyright-body .right{
+}
+.copyright .copyright-body .right ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.copyright .copyright-body .right ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.copyright .copyright-body .right ul li a{}
+.copyright .copyright-body .right ul li a i{
+    color: white;
+    background: #333;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
